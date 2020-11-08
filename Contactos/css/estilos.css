@@ -1,0 +1,9 @@
+@font-face{
+	font-family: "miFuente";
+	src: url(../../fuentes/Chicken\ Quiche.ttf);
+}
+
+#titulo{
+    font-family: "miFuente";
+    font-size: 55px;
+}

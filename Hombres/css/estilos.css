@@ -1,0 +1,27 @@
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.card-title{
+	color: red;
+}
+
+@font-face{
+	font-family: "miFuente";
+	src: url(../../fuentes/Chicken\ Quiche.ttf);
+}
+
+@font-face{
+	font-family: "miFuente2";
+	src: url(../../fuentes/Stella\ Demo.ttf);
+}
+#tituloSecundario{
+	font-family: "miFuente";
+	font-size: 35px;
+}
+
+#tituloPrincipal{
+	font-family: "miFuente2";
+	font-size: 40px;
+}

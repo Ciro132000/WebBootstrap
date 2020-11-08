@@ -1,0 +1,30 @@
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.card-title{
+	color: red;
+}
+
+@font-face{
+	font-family: "miFuente";
+	src: url(../fuentes/Chicken\ Quiche.ttf);
+}
+
+@font-face{
+	font-family: "miFuente2";
+	src: url(../fuentes/Amarillo.ttf);
+}
+#tituloDiv{
+	font-family: "miFuente";
+	font-size: 50px;
+}
+
+#tituloSecction{
+	font-family: "miFuente2";
+	font-size: 130px;
+	margin-top: 190px;
+}
+
+

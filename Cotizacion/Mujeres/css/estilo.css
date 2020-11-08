@@ -1,0 +1,19 @@
+.datos{
+    display: flex;
+    background: black;
+    color: white;
+}
+
+#tituloPrincipal{
+    color: black;
+}
+@font-face{
+	font-family: "miFuente2";
+	src: url(../../../fuentes/Stella\ Demo.ttf);
+}
+#tituloPrincipal{
+	font-family: "miFuente2";
+	font-size: 40px;
+}
+
+

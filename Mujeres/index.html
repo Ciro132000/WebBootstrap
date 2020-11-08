@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fashion Point</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <Script type="text/javascript" src="js/codigo.js"></Script>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo.ico">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../img/Logo.png" alt="Fashion Point" height="50px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://fesdy.pe/public/images/productos/1603201679CAT7-20-BAJA.pdf" target="_blank">Catálogo</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Hombres/index.html">Varones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Mujeres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Nosotros/index.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Contactos/index.html">Contáctenos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cotización</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="../Cotizacion/Varones/index.php">Varones</a>
+                              <a class="dropdown-item" href="../Cotizacion/Mujeres/index.php">Mujeres</a>
+                            </div>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br>
+
+    <section class=" text-center" style="background: linear-gradient(70deg, pink, white); height: 50px; ">
+        <div>
+            <h2 id="tituloPrincipal">MUJERES</h2>
+        </div>
+    </section>
+
+    <br>
+
+    <div class="container text-center">
+        <div class="row justify-content-between">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><a href="#abrigos">Abrigos</a></li>
+                <li class="list-group-item"><a href="#polos">Polos</a></li>
+                <li class="list-group-item"><a href="#pantalones">Pantalones</a></li>
+                <li class="list-group-item"><a href="#calzados">Calzados</a></li>
+            </ul>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#" onclick="pagina()">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#" onclick="pagina()">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" onclick="pagina()">Siguiente</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container text-center" id="abrigos">
+        <h2 id="tituloSecundario">Abrigos</h2>
+        <hr>
+        <div class="row justify-content-around">
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/a1.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 79.90</h5>
+                        <p class="card-text">Sacos largos acolchonados para mujeres</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/a2.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 59.90</h5>
+                        <p class="card-text">Casaca térmica con capucha</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/a3.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 49.90</h5>
+                        <p class="card-text">Abrigo largo para damas.</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/a4.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 79.90</h5>
+                        <p class="card-text">Abrigo térmico sin capucha</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/a5.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 69.90</h5>
+                        <p class="card-text">Saco elegante para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/a6.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 99.99</h5>
+                        <p class="card-text">Abrigo acolchonado + una cartera de regalo</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+    </div>
+
+    <div class="container text-center" id="polos">
+        <h2 id="tituloSecundario">Polos</h2>
+        <hr>
+        <div class="row justify-content-around">
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/po1.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 49.90</h5>
+                        <p class="card-text">Puma- polo cuello redondo para mujeres </p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/po2.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 39.90</h5>
+                        <p class="card-text">Polo alas de murciélago</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/po3.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 29.90</h5>
+                        <p class="card-text">Polo colo entero y cuello redondo para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/po4.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 69.90</h5>
+                        <p class="card-text">Polo ralph lauren para mujeres</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/po5.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 49.90</h5>
+                        <p class="card-text">Polo con botones y cuello chino para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/po6.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 59.90</h5>
+                        <p class="card-text">Polo elegante con diseños para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+    </div>
+
+    <div class="container text-center" id="pantalones">
+        <h2 id="tituloSecundario">Pantalones</h2>
+        <hr>
+        <div class="row justify-content-around">
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/p1.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 69.90</h5>
+                        <p class="card-text">Pantalón jean alicrado para mujeres</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/p2.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 59.90</h5>
+                        <p class="card-text">Pantalón jean alicrado para mujeres con diseños en la basta</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/p3.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 29.90</h5>
+                        <p class="card-text">Pantalón jean clásico para mujeres</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/p4.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 29.90</h5>
+                        <p class="card-text">Pantalón de vestir para mujeres</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/p5.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 29.90</h5>
+                        <p class="card-text">Pantalón jean alicrado con poco razgados para mujeres </p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/p6.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 29.90</h5>
+                        <p class="card-text">Pantalón jean alicrado para mujeres con diseños en la basta y diseños laterales</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+    </div>
+
+    <div class="container text-center" id="calzados">
+        <h2 id="tituloSecundario">Calzados</h2>
+        <hr>
+        <div class="row justify-content-around">
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/c1.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 89.90</h5>
+                        <p class="card-text">Tacones elegantes para damas </p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/c2.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 69.90</h5>
+                        <p class="card-text">Zapatillas AIR deportivas para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/c5.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 120.90</h5>
+                        <p class="card-text">Zapatillas deportivas Nike para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/c4.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 79.00</h5>
+                        <p class="card-text">Tacones clásicos para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/c3.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 49.90</h5>
+                        <p class="card-text">Zapatillas convencionales deportivas para damas</p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ml-2 mr-2">
+                <div class="card" style="width: 20rem;">
+                    <img src="../img/Mujeres/c6.jpg" class="card-img-top" style="max-height: 350px;">
+                    <div class="card-body">
+                        <h5 class="card-title">S/. 59.90</h5>
+                        <p class="card-text">Zapatilla casual para damas, suela blanca </p>
+                        <a href="#" class="btn btn-primary" onclick="comprar()">Lo quiero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+    </div>
+
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#" onclick="pagina()">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#" onclick="pagina()">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" onclick="pagina()">Siguiente</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="bg-dark text-white">
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <img src="../img/Logo.png" alt="" width="200px">
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <h2 style="font-size: 25px;">Mapa del sitio web</h2>
+              <div class="list-group">
+                <a href="../index.html" class="text-white">Inicio</a>
+                <a href="../Hombres/index.html" class="text-white">Varones</a>
+                <a href="index.html" class="text-white">Mujeres</a>
+                <a href="../Nosotros/index.html" class="text-white">Nosotros</a>
+                <a href="../Contactos/index.html" class="text-white">Contáctenos</a>
+              </div>
+    
+            </div>
+    
+            <div class="col-md-4 col-sm-12">
+                <h2 style="font-size: 25px;">Atención al cliente</h2>
+                <div class="list-group">
+                  <a href="../AtencionCliente/TerminosLegales/index.html" class="text-white">Términos legales</a>
+                  <a href="../AtencionCliente/TerminosCondiciones/index.html" class="text-white">Términos y condiciones</a>
+                  <a href="../AtencionCliente/TiemposEnvio/index.html" class="text-white">Tiempos y costos de envío</a>
+                  <a href="../AtencionCliente/Cambios/index.html" class="text-white">Cambios</a>
+                  <br>
+                </div>
+              </div>
+            </div>
+    
+    
+          <hr>
+          <div class="row justify-content-between">
+            <div class="col-4">
+              <h4 class="text-white text-center" style="font-size: 15px;"> Copyright (©) todos los derechos reservados</h4>
+            </div>
+            <div class="col-4">
+              <div class="d-flex justify-content-around">
+                <a href="https://www.instagram.com/fashionpoint2405/?igshid=1dexzdqtn2qtc&fbclid=IwAR110bgDQGTn7OVdNxbd2NGdKB3aksUkMGBx_0tDfWKCgO0-8Q9udh9qN9U"
+                  target="_blank"><img src="../img/174855.svg" title="Visitar la pagina de facebook" height="30"></a>
+                <br></br>
+                <a href="https://www.facebook.com/fashionpoint2405/" target="_blank"><img src="../img/733547.svg"
+                    title="Visitar la pagina de instagram" height="30"></a>
+                <br></br>
+                <a href="https://api.whatsapp.com/send?phone=51935336479&text=Bienvenido%20a%20Fashion%20Point"
+                  title="WhatsApp de Fashion Point" target="_blank"><img src="../img/733585.svg" height="30"></a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div style="text-align:right ;">
+                <img src="https://www.flaticon.es/svg/static/icons/svg/196/196578.svg" alt="Paga con Visa" height="55">
+                <img src="https://www.flaticon.es/svg/static/icons/svg/196/196561.svg" alt="Paga con master card"
+                  height="55">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </footer>
+</body>
+
+</html>
