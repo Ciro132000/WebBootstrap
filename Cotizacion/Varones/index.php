@@ -44,12 +44,15 @@
               <a class="nav-link" href="../../Contactos/index.html">Contáctenos</a>
             </li>
             <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cotización</a>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="index.php">Varones</a>
-                              <a class="dropdown-item" href="../Mujeres/index.php">Mujeres</a>
-                            </div>
-                          </li>
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cotización</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.php">Varones</a>
+                <a class="dropdown-item" href="../Mujeres/index.php">Mujeres</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="../../login/cuenta.php"><img src="../../img/login.svg" alt="" width="40px" ></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -204,10 +207,12 @@
         <div class="custom-control custom-radio ">
             <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" value="credito" required>
             <label class="custom-control-label" for="customRadio1">Crédito</label>
+            <small><br>Se aplica un descuento del 12 % sobre el total de la compra</small>
         </div>
         <div class="custom-control custom-radio">
             <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" value="contado" required>
             <label class="custom-control-label" for="customRadio2">Contado</label>
+            <small><br>Se aplica un descuento del 5 % sobre el total de la compra</small>
         </div>
         <br><br>
         <h5>Distrito de envío</h5>
@@ -407,7 +412,7 @@ include ("codigo.php");
 
   <script>
     function comprar(){
-    alert ("Sera redirigido(a) a la ventan de compras para culminar con los detalles de su compra");
+    alert ("Sera redirigido(a) a la ventana de compras para culminar con los detalles de su compra");
   }
   </script>
 
